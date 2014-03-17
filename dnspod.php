@@ -10,7 +10,7 @@ class dnspod {
 	private $password;
 	private $format = 'json';
 	private $lang = 'cn';
-	private $error_on_empty = 'yes';
+	private $error_on_empty = 'no';
 	private $api_domain = 'https://dnsapi.cn/';
 	private $recodes = array();
 
