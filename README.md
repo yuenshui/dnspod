@@ -3,7 +3,7 @@ dnspod
 
 Batch modify the domain name's IP, domain name pointing to dynamic network.
 
-<code>
+<pre>
 # crontab -l
 * * * * * /usr/bin/php /data/shell/test_dnspod.php >> /data/shell/dnspod.log 2>&1 &
 
@@ -20,4 +20,4 @@ office2.inkever.net IP is 115.192.199.250, no need to update.
 office3.inkever.net IP is 115.192.199.250, no need to update.
 test1.yuenshui.com from 192.168.188.188 modification of IP is 115.192.199.250, success.
 test2.yuenshui.com IP is 115.192.199.250, no need to update.
-</code>
+</pre>
