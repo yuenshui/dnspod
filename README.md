@@ -5,7 +5,7 @@ Batch modify the domain name's IP, domain name pointing to dynamic network.
 
 <pre>
 # crontab -l
-* * * * * /usr/bin/php /data/shell/demo_dnspod.php >> /data/shell/dnspod.log 2>&1 &
+* * * * * /usr/bin/php /data/shell/demo_shell.php >> /data/shell/dnspod.log 2>&1 &
 
 tail -f /data/shell/dnspod.log
 2014-03-17 19:17:01 localhost IP：115.192.199.250
